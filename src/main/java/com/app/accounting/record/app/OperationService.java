@@ -8,6 +8,6 @@ package com.app.accounting.record.app;
  *
  * @author naya
  */
-public class AccountingService {
+public class OperationService {
     
 }
