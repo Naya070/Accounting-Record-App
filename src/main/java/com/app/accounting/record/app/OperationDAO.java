@@ -9,5 +9,13 @@ package com.app.accounting.record.app;
  * @author naya
  */
 public class OperationDAO {
+        public static void createOperationDB(Operation operation) {
+    }
+    public static void readOperationDB(){
+    }
+    public static void deleteOperationDB(int idOperation){
+    }
+    public static void updateOperationDB(){
+    }
     
 }

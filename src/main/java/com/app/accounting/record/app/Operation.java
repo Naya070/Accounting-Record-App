@@ -9,24 +9,24 @@ package com.app.accounting.record.app;
  * @author naya
  */
 public class Operation {
-    int id_operation;
+    int idOperation;
     float amount;
-    String created_at;
+    String createdAt;
     String description;
 
-    public Operation(float amount, String created_at, String description) {
+    public Operation(float amount, String createdAt, String description) {
         this.amount = amount;
-        this.created_at = created_at;
+        this.createdAt = createdAt;
         this.description = description;
     }
     public Operation () {}
 
-    public int getId_operation() {
-        return id_operation;
+    public int getIdOperation() {
+        return idOperation;
     }
 
-    public void setId_operation(int id_operation) {
-        this.id_operation = id_operation;
+    public void setIdOperation(int idOperation) {
+        this.idOperation = idOperation;
     }
 
     public float getAmount() {
@@ -37,12 +37,12 @@ public class Operation {
         this.amount = amount;
     }
 
-    public String getCreated_at() {
-        return created_at;
+    public String getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreated_at(String created_at) {
-        this.created_at = created_at;
+    public void setCreated_at(String createdAt) {
+        this.createdAt = createdAt;
     }
 
     public String getDescription() {
